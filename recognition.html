@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Usability Evaluation</title>
+    <title>Recognition Rather than Recall</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -72,18 +72,18 @@
             <ul class="nav nav-list">
 
               <li class="nav-header">Navigation</li>
-              	      	<li id="active-link"><a href="index.html"><i class="icon-chevron-right"></i>Home</a></li>
+              	      	<li><a href="index.html">Home</a></li>
               <li><a href="visibility.html">Visibility of System Status</a></li>
               <li><a href="match.html">Match Between System and the Real World</a></li>
               <li><a href="usercontrol.html">User Control and Freedom</a></li>
               <li><a href="consistency.html">Consistency and standards</a></li>
               <li><a href="error.html">Error Prevention</a></li>
-              <li><a href="recognition.html">Recognition Rather than Recall</a></li>
+              <li id="active-link"><a href="recognition.html"><i class="icon-chevron-right"></i>Recognition Rather than Recall</a></li>
               <li><a href="flexibility.html">Flexibility and Efficiency of Use</a></li>
               <li><a href="aesthetic.html">Aesthetic and Minimalist Design</a></li>
               <li><a href="diagnosing.html">Recognizing, Diagnosing, and Recovering from Errors</a></li>
               <li><a href="help.html">Help and documentation</a></li>
-               <li><a href="closing.html">Closing</a></li>
+              <li><a href="closing.html">Closing</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
@@ -91,25 +91,44 @@
 
       
         <div class="span8">
-         <h2 id="header1">Home</h2>
-         <p>Welcome to our usability evaluation of the website Louisiana.edu. Our main goal for this assignment is to use Neilsen's
-	 10 Heuristics along with our knowledge of brand, function, interactivity, and navigation to successfully diagnose and discuss
-	 usability issues with the site.</p>
-	 <p>Our analysis of the site will be contributed equally by each of our team members. For each heuristic, we will be providing a thorough
-	 description by answering specific questions which can be grounded through the pictures that we will also be providing. We will not only be
-	 focusing on the negatives but the positives as well and utilize both for our evaluation in how to improve the site.</p>
-	 <p>Navigation of our site will be provided on the left with the content of text and picture thumbnails will on the right. The thumbnails
-	 will be organized through a slider providing easy access to match the content with the picture. The banner as long with a link on the left
-	 links you back to home. </p>
+         <h2 id="header1">Recognition Rather than Recall</h2><br>
+         <blockquote>
+           <p>"Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate."</p>
+           <small>Jakob Nielsen</small>
+         </blockquote>
+         
+         <p>Recognition rather than recall deals specifically with making users life easier by having them rely less on their memory and more on what they can see on the screen. Things that help with this are breadcrumbs, banners, and anything showing if they are on the right page or anything showing them how they got there.</p><br>
+         
+         <p>The first problem with this site is they do not implement breadcrumbs. This makes it very difficult for the user to remember how they got to the page that they are on. An example of this is when you click on <i>news</i>, then <i>for media</i>, and then finally <i>BP oil spill</i>, there is no way of knowing that you got here from the news page.  In addition, the site often times uses inconsistent banners, meaning the banner does not match the section of the page that they are on. For instance, when you click on the news page, the banner says communications and marketing. So unless you remembered that you came from the news page, there would be no other way of knowing. </p><br>
+         
+         <p>For schedule of class, you can get it it from student life but the banner for it says "about us", making it confusing. The banner should always match which part of the site you are on. Also, when you go down to academic programs, the honors page takes you to a completely different page, with no way to go back or to know that you came from academic programs. When you are on the honors page, you can't click on the other academic programs, so you would have to just completely go back to student life.</p><br>	 
+	 <script language="javascript">$(document).ready(function (){
+	 var a = function(self){
+	       self.anchor.fancybox();
+	    };
+	 		$("#pikame").PikaChoose({buildFinished:a, autoPlay:false});
+	 	});</script>
+	 	
 	 
+         <ul id="pikame">
+           <li><a href="http://www.placehold.it/700x250"><img src="http://www.placehold.it/700x250"></a><span>This is a Pikacomment.</span></li>
+           <li><a title="Put fancybox comment here" href="images/2.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/3.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/4.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/5.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+         </ul>
+         
 
 </div>
 
 <div class="span12">
 
+	 <div class="span1 offset2">
+	<a class="btn btn-success" href='error.html'>&laquo; Back</a>
+	</div>
 	
-	 <div class="span1 offset9">
-	<a href='visibility.html' class="btn btn-success">Start! &raquo;</a>
+	 <div class="span1 offset6">
+	<a class="btn btn-success" href='flexibility.html'>Next &raquo;</a>
 	</div>
 
 </div>

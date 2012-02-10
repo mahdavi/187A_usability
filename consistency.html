@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Usability Evaluation</title>
+    <title>Consistency and Standards</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -72,11 +72,11 @@
             <ul class="nav nav-list">
 
               <li class="nav-header">Navigation</li>
-              	      	<li id="active-link"><a href="index.html"><i class="icon-chevron-right"></i>Home</a></li>
+              	      	<li><a href="index.html">Home</a></li>
               <li><a href="visibility.html">Visibility of System Status</a></li>
               <li><a href="match.html">Match Between System and the Real World</a></li>
               <li><a href="usercontrol.html">User Control and Freedom</a></li>
-              <li><a href="consistency.html">Consistency and standards</a></li>
+              <li id="active-link"><a href="consistency.html"><i class="icon-chevron-right"></i>Consistency and standards</a></li>
               <li><a href="error.html">Error Prevention</a></li>
               <li><a href="recognition.html">Recognition Rather than Recall</a></li>
               <li><a href="flexibility.html">Flexibility and Efficiency of Use</a></li>
@@ -91,32 +91,50 @@
 
       
         <div class="span8">
-         <h2 id="header1">Home</h2>
-         <p>Welcome to our usability evaluation of the website Louisiana.edu. Our main goal for this assignment is to use Neilsen's
-	 10 Heuristics along with our knowledge of brand, function, interactivity, and navigation to successfully diagnose and discuss
-	 usability issues with the site.</p>
-	 <p>Our analysis of the site will be contributed equally by each of our team members. For each heuristic, we will be providing a thorough
-	 description by answering specific questions which can be grounded through the pictures that we will also be providing. We will not only be
-	 focusing on the negatives but the positives as well and utilize both for our evaluation in how to improve the site.</p>
-	 <p>Navigation of our site will be provided on the left with the content of text and picture thumbnails will on the right. The thumbnails
-	 will be organized through a slider providing easy access to match the content with the picture. The banner as long with a link on the left
-	 links you back to home. </p>
+         <h2 id="header1">Consistency and Standards</h2><br>
+         <blockquote>
+           <p>"Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions."</p>
+           <small>Jakob Nielsen</small>
+         </blockquote>
+         
+         <p>Consistency refers to the page-layouts for each page staying the same, using same terms, and just overall giving the users a feeling of familiarity and uniformity. </p><br>
+         
+         <p>For this site, the links library, research, and ulink have completely different page layouts than the other pages. They are different pages but nothing about them relates to the Louisiana.edu website. The nav bar is different and the color schemes are a bit different as well.</p><br>
+         
+         <p>In student life there is a tab called <i>map</i> but in the “about us” section its called the <i>campus map</i>. In research, clicking on the logo does not  take you to the university website whereas the logo does for the other pages. On the research page, it also uses "University website" instead of "home" to take you back to the Louisiana.edu site. The home page itself also has a completely different layout than the other pages. The search, index, contact us, and ulink are at the bottom of the home page but for every other page its on the top. For the "news" page, the banner says communications and marketing, not news, making it very confusing. Also, within the new page, some of subtabs on top say "new and events" while others just say "news".</p><br>
 	 
-
+	 <script language="javascript">$(document).ready(function (){
+	 var a = function(self){
+	       self.anchor.fancybox();
+	    };
+	 		$("#pikame").PikaChoose({buildFinished:a, autoPlay:false});
+	 	});</script>
+	 	
+	 
+         <ul id="pikame">
+           <li><a href="http://www.placehold.it/700x250"><img src="http://www.placehold.it/700x250"></a><span>This is a Pikacomment.</span></li>
+           <li><a title="Put fancybox comment here" href="images/2.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/3.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/4.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/5.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+         </ul>
+         
 </div>
 
 <div class="span12">
 
+	 <div class="span1 offset2">
+	<a class="btn btn-success" href='usercontrol.html'>&laquo; Back</a>
+	</div>
 	
-	 <div class="span1 offset9">
-	<a href='visibility.html' class="btn btn-success">Start! &raquo;</a>
+	 <div class="span1 offset6">
+	<a class="btn btn-success" href='error.html'>Next &raquo;</a>
 	</div>
 
 </div>
          
        </div>
     
-
       <hr>
 
       <footer>

@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Usability Evaluation</title>
+    <title>Aesthetic and Minimalist Design</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -72,7 +72,7 @@
             <ul class="nav nav-list">
 
               <li class="nav-header">Navigation</li>
-              	      	<li id="active-link"><a href="index.html"><i class="icon-chevron-right"></i>Home</a></li>
+              	      	<li><a href="index.html">Home</a></li>
               <li><a href="visibility.html">Visibility of System Status</a></li>
               <li><a href="match.html">Match Between System and the Real World</a></li>
               <li><a href="usercontrol.html">User Control and Freedom</a></li>
@@ -80,10 +80,10 @@
               <li><a href="error.html">Error Prevention</a></li>
               <li><a href="recognition.html">Recognition Rather than Recall</a></li>
               <li><a href="flexibility.html">Flexibility and Efficiency of Use</a></li>
-              <li><a href="aesthetic.html">Aesthetic and Minimalist Design</a></li>
+              <li id="active-link"><a href="aesthetic.html"><i class="icon-chevron-right"></i>Aesthetic and Minimalist Design</a></li>
               <li><a href="diagnosing.html">Recognizing, Diagnosing, and Recovering from Errors</a></li>
               <li><a href="help.html">Help and documentation</a></li>
-               <li><a href="closing.html">Closing</a></li>
+              <li><a href="closing.html">Closing</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
@@ -91,7 +91,11 @@
 
       
         <div class="span8">
-         <h2 id="header1">Home</h2>
+         <h2 id="header1">Aesthetic and Minimalist Design</h2><br>
+         <blockquote>
+           <p>"Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility."</p>
+           <small>Jakob Nielsen</small>
+         </blockquote>
          <p>Welcome to our usability evaluation of the website Louisiana.edu. Our main goal for this assignment is to use Neilsen's
 	 10 Heuristics along with our knowledge of brand, function, interactivity, and navigation to successfully diagnose and discuss
 	 usability issues with the site.</p>
@@ -102,21 +106,39 @@
 	 will be organized through a slider providing easy access to match the content with the picture. The banner as long with a link on the left
 	 links you back to home. </p>
 	 
+	 <script language="javascript">$(document).ready(function (){
+	 var a = function(self){
+	       self.anchor.fancybox();
+	    };
+	 		$("#pikame").PikaChoose({buildFinished:a, autoPlay:false});
+	 	});</script>
+	 	
+	 
+         <ul id="pikame">
+           <li><a href="http://www.placehold.it/700x250"><img src="http://www.placehold.it/700x250"></a><span>This is a Pikacomment.</span></li>
+           <li><a title="Put fancybox comment here" href="images/2.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/3.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/4.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+           <li><a href="images/5.jpg"><img src="http://www.placehold.it/700x250"></a></li>
+         </ul>
+         
 
 </div>
 
 <div class="span12">
 
+	 <div class="span1 offset2">
+	<a class="btn btn-success" href='flexibility.html'>&laquo; Back</a>
+	</div>
 	
-	 <div class="span1 offset9">
-	<a href='visibility.html' class="btn btn-success">Start! &raquo;</a>
+	 <div class="span1 offset6">
+	<a class="btn btn-success" href='diagnosing.html'>Next &raquo;</a>
 	</div>
 
 </div>
          
        </div>
     
-
       <hr>
 
       <footer>
